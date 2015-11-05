@@ -3,27 +3,33 @@ body {
   font-weight: 300;
   background: url(linedpaper.png) repeat;
 }
-#wrapper {
-  width: 2000px;
-  margin: 20px auto;
-  text-shadow: 2px 2px #ff0000;
-}
-/* Making the stuff in H1 red*/
-h1, h2, h3 {
-	color:red;
-}
-h4 {
-color : orange;
-}
-#great{
-	color:purple;
-	font-style: 
-}
-.unicorn {
-	color:green;
-}
-img{
+img
+{
 	width: 200px;
 	border: 25px solid purple;
 }
 
+#wrapper {
+  width: 2000px;
+  margin: 20px auto;
+  /*text-shadow: 2px 2px #ff0000;*/
+}
+/* Making the stuff in H1,2,3 purple*/
+
+
+h5{
+color : #FF8C00;
+}
+
+#great{
+	color:black;
+}
+.unicorn {
+	color:#C71585;
+}
+
+h1, h2, h3 {
+	color:purple;
+	font-family: myFirstFont;
+    /*font-weight: bold;*/
+}
